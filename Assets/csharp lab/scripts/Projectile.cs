@@ -6,6 +6,7 @@ using UnityEngine;
 public class Projectile : MonoBehaviour
 {
     [HideInInspector]
+    public float damageRadius = 1;
     public new Rigidbody rigidbody;
     void Reset()
     {
